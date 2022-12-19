@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("Podaj liczbę");
 
-        while((userGuess = guess.nextInt()) != number) {
+        while ((userGuess = guess.nextInt()) != number) {
             if (userGuess % 3 != 0) {
                 System.out.println("Liczba nie jest podzielna przez 3");
             } else if (userGuess < number) {
